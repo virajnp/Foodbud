@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            />
+
+        <TextView
+            android:id="@+id/text_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_view"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/capture_img_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Capture Restaurant Name"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"
+            android:layout_above="@+id/detect_image_txt_btn"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/detect_image_txt_btn"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Detect Name "
+            android:textStyle="italic"
+            android:background="@drawable/custom_button"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/viewmap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="View Restaurant on Map"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"
+            android:background="@drawable/custom_button"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

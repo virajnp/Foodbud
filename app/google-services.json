@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1020229023830",
+    "firebase_url": "https://food-bud.firebaseio.com",
+    "project_id": "food-bud",
+    "storage_bucket": "food-bud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020229023830:android:59320da8f71f9e078923f7",
+        "android_client_info": {
+          "package_name": "com.example.foodbud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020229023830-3ne1o51k9fittropsoel54c9sbihob2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8ELV07M8FDfGoN6Saqls3Ifq1byjhAPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020229023830-3ne1o51k9fittropsoel54c9sbihob2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
